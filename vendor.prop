@@ -18,6 +18,10 @@ persist.vendor.camera.physical.num=4
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7225
 
+# Dalvik
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=512m
+
 # Firmware
 ro.vendor.hw.modem_version=.
 
