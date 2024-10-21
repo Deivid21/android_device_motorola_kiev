@@ -99,6 +99,7 @@ PRODUCT_COPY_FILES += \
 
 # Moto Camera 3
 TARGET_MOTCAMERA3 := kiev
+TARGET_USES_MOTCAMERA3 := true
 
 $(call inherit-product, vendor/motorola/MotCamera3/motcamera3.mk)
 
