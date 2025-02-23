@@ -2,12 +2,9 @@
 binder_call(hal_camera_default, system_server)
 
 # Camera props
-get_prop(hal_camera_default, exported_camera_prop)
 get_prop(hal_camera_default, exported_radio_prop)
 get_prop(hal_camera_default, media_variant_prop)
 get_prop(hal_camera_default, surfaceflinger_display_prop)
-set_prop(hal_camera_default, moto_boot_prop)
-set_prop(hal_camera_default, moto_camera_config_prop)
 
 # MotCamera3
 allow hal_camera_default power_supply:dir search;
